@@ -1,4 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import  { Movie } from '../../models/movie';
+import { movieJSON } from '../../_files/movie';
+
 
 @Component({
   selector: 'app-movie',
@@ -6,6 +9,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./movie.component.css']
 })
 export class MovieComponent implements OnInit {
+
+  @Input 
+  currentMovie?: Movie;
 
   constructor() { }
 
