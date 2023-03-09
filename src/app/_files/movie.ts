@@ -1,5 +1,4 @@
 
-import { platform } from 'os';
 import { Movie } from '../models/movie';
 
 export const movieJSON: Movie [] =  [
