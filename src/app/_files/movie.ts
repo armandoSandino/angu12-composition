@@ -12,7 +12,7 @@ export const movieJSON: Movie [] =  [
         runtime: "126 min",
         genre: "Action",
         plot: "A marvin.com",
-        poster: "https://nice.com.ni/exactly"
+        poster: "https://www.pexels.com/es-es/foto/ciudad-hombre-manos-noche-9821392/"
     },
     {
         id: 2344,
@@ -24,6 +24,6 @@ export const movieJSON: Movie [] =  [
         runtime: "123 min",
         genre: "Action Movie",
         plot: "A marvin.com",
-        poster: "https://nice.com.ni/exactlynn/refresh"
+        poster: "https://www.pexels.com/es-es/foto/ciudad-fuegos-artificiales-celebracion-ciudades-3373624/"
     },
 ];
