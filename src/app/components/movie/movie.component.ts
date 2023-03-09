@@ -10,7 +10,7 @@ import { movieJSON } from '../../_files/movie';
 })
 export class MovieComponent implements OnInit {
 
-  @Input 
+  @Input()
   currentMovie?: Movie;
 
   constructor() { }
