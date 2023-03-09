@@ -1,8 +1,25 @@
 <div class="card">
-  <img src="..." class="card-img-top" alt="...">
+  <img src="{{currentMovie?.poster}}" class="card-img-top" alt="This is image">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    <h5 class="card-title"> {{currentMovie?.title}}</h5>
+    <p class="card-text">
+      <small>{{currentMovie?.plot | slice:0:100 }}</small>
+    </p>
+    <p class="card-text">
+      <small class="text-muted">
+        {{ currentMovie?.released}}
+      </small>
+    </p>
+    <a href="/Movie/Details/@item.Id" class="btn  btn-primary">
+      <small>
+        Ver mas.
+      </small>
+    </a>
+    <a href="https://www.pexels.com/es-es/foto/ciudad-fuegos-artificiales-celebracion-ciudades-3373624/" class="btn btn-primary">
+      <small>
+        Comentarios
+      </small>
+    </a>
   </div>
   <app-ng-movie-detail>
   </app-ng-movie-detail>
